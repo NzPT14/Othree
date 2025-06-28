@@ -30,7 +30,7 @@ time.sleep(2)  # wait
 
 headers = [th.text for th in driver.find_elements(By.CSS_SELECTOR, "table thead th")]
 
-N = 100000000  # Try to scrape 
+N = 100  # Try to scrape 
 rows = []
 seen = set()
 while len(rows) < N:
